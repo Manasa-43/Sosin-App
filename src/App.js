@@ -1,11 +1,12 @@
 
 import './App.css';
+import Login from "./components/login"
 
 
 function App() {
   return (
-    <div className="App">
-      <button className="btn btn-primary">Working</button>
+    <div >
+      <Login />
     </div>
   );
 }
